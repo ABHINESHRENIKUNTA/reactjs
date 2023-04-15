@@ -14,9 +14,7 @@ function App() {
   }
   useEffect(()=>{
 console.log('use Effect Executing');
-// return ()=>{
-// console.log('i am cleaning up')
-// };
+
 elemRef.current.defaultValue="narendra";
 elemRef.current.focus();
   },[email])
