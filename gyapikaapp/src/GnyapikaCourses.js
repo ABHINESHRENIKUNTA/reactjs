@@ -8,8 +8,8 @@ class GnyapikaCourses extends React.Component{
 
     render(){
         return(
-            <div>
-                this is GnyapikaCourses class
+            <div >
+                this is GnyapikaCourses class 
             </div>
         )
     }
