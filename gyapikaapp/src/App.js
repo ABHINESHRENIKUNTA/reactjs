@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-// import GnyapikaCourses from './GnyapikaCourses';
+import GnyapikaCourses from './GnyapikaCourses';
 // import React,{useState,useEffect,useRef,useCallback,useMemo} from 'react';
 import React from 'react';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
@@ -50,6 +50,7 @@ function App() {
 <Route path="/home" element={<Home />} /> 
 </Routes>
 </BrowserRouter>
+<GnyapikaCourses  />
       {/* Gyapika Login Page {email}
       <GnyapikaCourses childFunction={printData} count={count} />
       <div className='container'>
